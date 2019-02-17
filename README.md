@@ -109,7 +109,7 @@ After downloading, run the commands below to extract the downloaded file and mov
 ```
 cd /tmp && wget https://wordpress.org/latest.tar.gz
 tar -zxvf latest.tar.gz
-sudo mv wordpress/var/www/html/wordpress
+sudo mv wordpress /var/www/html/wordpress
 ```
 Then run the commands below to set the correct permissions for WordPress to function.
 
